@@ -7,13 +7,22 @@ import java.util.Scanner;
  */
 public class UserInput 
 {
+    /**
+    * Gets user input from console using scanner
+    *
+    * @return string
+    */
     static String getUserInputFromConsole()
     { 
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         String userInput = scanner.nextLine();
         return userInput;
     }
-    
+    /**
+    * If no arguments are given then this is called
+    *
+    * @return string of arguments
+    */ 
     public static String chooseArgumentsDuringRuntime()
     {
         System.out.print("No arguments given, choose now");

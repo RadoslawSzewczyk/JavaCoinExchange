@@ -1,0 +1,50 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/radek/Documents/repo/JavaCoinExchange/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/radek/Documents/repo/JavaCoinExchange/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JavaCoinExchange 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'JavaCoinExchange 1.0-SNAPSHOT API'
+com.mycompany.zadanie2
+model
+view
+C:\Users\radek\Documents\repo\JavaCoinExchange\src\main\java = 1730042957073
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\allclasses-index.html = 1730053797673
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\allpackages-index.html = 1730053797678
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\copy.svg = 1730053797935
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\element-list = 1730053794704
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\help-doc.html = 1730053797885
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\index-all.html = 1730053797870
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\index.html = 1730053797635
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\link.svg = 1730053797935
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\member-search-index.js = 1730053797807
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\module-search-index.js = 1730053797681
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\overview-summary.html = 1730053797870
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\overview-tree.html = 1730053797600
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\package-search-index.js = 1730053797692
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\script.js = 1730053797920
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\search-page.js = 1730053797970
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\search.html = 1730053797870
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\search.js = 1730053797959
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\stylesheet.css = 1730053797920
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\tag-search-index.js = 1730053797828
+C:\Users\radek\Documents\repo\JavaCoinExchange\target\reports\apidocs\type-search-index.js = 1730053797744

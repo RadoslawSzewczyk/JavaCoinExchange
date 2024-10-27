@@ -11,7 +11,10 @@ public class StoreDenominationAndChange
 {
     private AbstractMap.SimpleEntry<Integer[], Integer> denominationAndChange;
     /**
-     * -n 1 2 5 10 100 200 500 -c value
+     * Parses console arguments
+     * 
+     * available denominations:1 2 5 10 100 200 50
+     * flags: -n 1 2 5 10 100 200 500 -c value
      * @param args
      */
     public void getDenominationAndChangeFromArgs(String[] args)
@@ -60,7 +63,11 @@ public class StoreDenominationAndChange
 
         denominationAndChange = new AbstractMap.SimpleEntry<>(denominations.toArray(new Integer[0]), change);
     }
-    
+    /**
+    * Common getter for denomination and change
+    *
+    * @return denominations and change
+    */
     public AbstractMap.SimpleEntry<Integer[], Integer> getDenominationAndChange()
     {
         return denominationAndChange;
