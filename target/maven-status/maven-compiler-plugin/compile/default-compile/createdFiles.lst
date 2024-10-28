@@ -1,4 +1,11 @@
-view\UserInput.class
-com\mycompany\zadanie2\Zadanie2.class
+coinEchangeGUI.class
+coinEchangeGUI$2.class
+coinEchangeGUI$5.class
+coinEchangeGUI$3.class
+model\NegativeException.class
 model\StoreDenominationAndChange.class
 com\mycompany\zadanie2\FindMinimalChange.class
+coinEchangeGUI$4.class
+coinEchangeGUI$1.class
+view\UserInput.class
+com\mycompany\zadanie2\Zadanie2.class

@@ -2,6 +2,7 @@ package com.mycompany.zadanie2;
 
 import java.util.AbstractMap;
 import java.util.Arrays;
+import model.NegativeException;
 /**
  *
  * @author Radoslaw Szewczyk
@@ -14,7 +15,7 @@ public class FindMinimalChange
     * @param denominationAndChange pair of available denominations and change.
     * @return number of coins to make the change.
     */
-    static Integer findMinimalChange(AbstractMap.SimpleEntry<Integer[], Integer> denominationAndChange)
+    static Integer findMinimalChange(AbstractMap.SimpleEntry<Integer[], Integer> denominationAndChange) throws NegativeException
     {
         Integer[] denominations = denominationAndChange.getKey();
         int change = denominationAndChange.getValue();
@@ -28,6 +29,10 @@ public class FindMinimalChange
         {
             for (Integer coin : denominations)
             {
+                if (coin < 0)
+                {
+                    throw new NegativeException("Coin cannot be negative or 0");
+                }
                 if (coin <= i) {
                     dp[i] = Math.min(dp[i], dp[i - coin] + 1);
                 }
