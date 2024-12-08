@@ -1,10 +1,13 @@
 package view;
 
+import lombok.experimental.UtilityClass;
 import java.util.Scanner;
+
 /**
  *
  * @author Radoslaw Szewczyk
  */
+@UtilityClass
 public class UserInput 
 {
     /**
@@ -14,7 +17,7 @@ public class UserInput
     */
     static String getUserInputFromConsole()
     { 
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
         return userInput;
     }
